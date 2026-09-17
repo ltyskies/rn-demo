@@ -2,6 +2,8 @@
   "expo": {
     "name": "rn-demo",
     "slug": "rn-demo",
+    "scheme": "rndemo",
+    "plugins": ["expo-router"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +22,7 @@
       "package": "com.anonymous.rndemo"
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     }
   }
